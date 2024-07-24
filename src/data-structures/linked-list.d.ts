@@ -6,6 +6,8 @@ export class LinkedListNode<T> {
 
 export class LinkedList<T> {
   constructor(values?: T[]);
+  private head: LinkedListNode<T>;
+  private tail: LinkedListNode<T>;
   size: number;
   addFirst(val: T);
   addLast(val: T);

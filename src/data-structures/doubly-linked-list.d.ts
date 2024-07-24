@@ -6,6 +6,8 @@ export class DoublyLinkedListNode<T> {
 
 export class DoublyLinkedList<T> {
   constructor(values?: T[]);
+  private head: DoublyLinkedListNode<T>;
+  private tail: DoublyLinkedListNode<T>;
   size: number;
   addFirst(val: T);
   addLast(val: T);

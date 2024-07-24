@@ -102,7 +102,6 @@ describe('DoublyLinkedList', () => {
       it('should have the head and tail set to the first node if there is only one node', () => {
         const linkedList = new DoublyLinkedList();
         linkedList.addAt(0, 1);
-        console.log(linkedList);
         expect(linkedList.getHead()).toBe(1);
         expect(linkedList.getTail()).toBe(1);
         expect(linkedList.size).toBe(1);
