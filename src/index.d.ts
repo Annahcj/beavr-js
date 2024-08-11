@@ -6,6 +6,7 @@ import { LinkedList } from './data-structures/linked-list';
 import { PriorityQueue } from './data-structures/priority-queue';
 import { Queue } from './data-structures/queue';
 import { SegmentTree, SegmentTreeType } from './data-structures/segment-tree';
+import { Trie } from './data-structures/trie';
 import { UnionFind } from './data-structures/union-find';
 
 export {
@@ -16,6 +17,7 @@ export {
   Queue,
   SegmentTree,
   SegmentTreeType,
+  Trie,
   UnionFind,
   gcd,
   lcm,
