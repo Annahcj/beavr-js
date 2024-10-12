@@ -1,5 +1,5 @@
-# beaver-js
-Data structures and algorithms written in JavaScript with TypeScript types.
+# beavr-js
+Data structures and algorithms written in JavaScript with TypeScript types. 
 
 This package contains the following data structures and algorithms:
 - Priority Queue
@@ -14,13 +14,16 @@ This package contains the following data structures and algorithms:
 - GCD (Greatest Common Denominator)
 - LCM (Least Common Multiple)
 
-For usage and detailed explanation for each data structure and algorithm, please see the readmes located in the `src` folder.
+For usage and detailed explanation for each data structure and algorithm, please see the readmes located in the `src` folder.  
 
 ## Installation
-`npm i beaver-js`
+`npm i beavr-js`
 
 ## ESModules
-`import { PriorityQueue } from 'beaver-js'`
+`import { PriorityQueue } from 'beavr-js'`
 
 ## CommonJS
-`const { PriorityQueue } = require('beaver-js')`
+`const { PriorityQueue } = require('beavr-js')`
+
+## Mascot :)
+![Beaver](assets/beaver.jpeg)

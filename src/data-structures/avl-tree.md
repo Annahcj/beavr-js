@@ -5,10 +5,10 @@ An AVL tree is a self-balancing Binary Search Tree, where the height difference 
 ## Rotations
 Rebalancing is done through four different types of rotations, depending on the situation.
 
-![Alt text](avl-tree-left-left.png)
-![Alt text](avl-tree-left-right.png)
-![Alt text](avl-tree-right-right.png)
-![Alt text](avl-tree-right-left.png)
+![AVL Tree left left rotation](../../assets/avl-tree-left-left.png)
+![AVL Tree left right rotation](../../assets/avl-tree-left-right.png)
+![AVL Tree right right rotation](../../assets/avl-tree-right-right.png)
+![AVL Tree right left rotation](../../assets/avl-tree-right-left.png)
 
 ## AVL Tree Rotations
 
