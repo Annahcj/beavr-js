@@ -1,4 +1,4 @@
-import { UnionFind } from '../src/data-structures/union-find';
+const { UnionFind } = require('../src/data-structures/union-find');
 
 describe.only('UnionFind', () => {
   describe('constructor', () => {

@@ -1,4 +1,4 @@
-export class DoublyLinkedListNode {
+class DoublyLinkedListNode {
   constructor(val) {
     this.val = val;
     this.next = null;
@@ -10,7 +10,7 @@ export class DoublyLinkedListNode {
  * @class DoublyLinkedList
  * @param {T[]} [values]
  */
-export class DoublyLinkedList {
+class DoublyLinkedList {
   /**
    * Initializes the list with the given values if passed in.
    * Time Complexity: O(values.length)
@@ -248,3 +248,6 @@ export class DoublyLinkedList {
     }
   }
 }
+
+exports.DoublyLinkedList = DoublyLinkedList;
+exports.DoublyLinkedListNode = DoublyLinkedListNode;

@@ -1,26 +1,29 @@
-import { gcd } from './algorithms/gcd';
-import { lcm } from './algorithms/lcm';
-import { AVLTree } from './data-structures/avl-tree';
-import { Deque } from './data-structures/deque';
-import { DoublyLinkedList } from './data-structures/doubly-linked-list';
-import { LinkedList } from './data-structures/linked-list';
-import { PriorityQueue } from './data-structures/priority-queue';
-import { Queue } from './data-structures/queue';
-import { SegmentTree, SegmentTreeType } from './data-structures/segment-tree';
-import { Trie } from './data-structures/trie';
-import { UnionFind } from './data-structures/union-find';
-
-export default {
-  gcd,
-  lcm,
-  UnionFind,
-  LinkedList,
-  DoublyLinkedList,
+const { gcd } = require('./algorithms/gcd');
+const { lcm } = require('./algorithms/lcm');
+const { AVLTree } = require('./data-structures/avl-tree');
+const { Deque } = require('./data-structures/deque');
+const { DoublyLinkedList } = require('./data-structures/doubly-linked-list');
+const { LinkedList } = require('./data-structures/linked-list');
+const { PriorityQueue } = require('./data-structures/priority-queue');
+const { Queue } = require('./data-structures/queue');
+const {
   SegmentTree,
   SegmentTreeType,
-  Queue,
-  Deque,
-  PriorityQueue,
-  Trie,
+} = require('./data-structures/segment-tree');
+const { Trie } = require('./data-structures/trie');
+const { UnionFind } = require('./data-structures/union-find');
+
+module.exports = {
   AVLTree,
+  Deque,
+  DoublyLinkedList,
+  LinkedList,
+  PriorityQueue,
+  Queue,
+  SegmentTree,
+  SegmentTreeType,
+  Trie,
+  UnionFind,
+  gcd,
+  lcm,
 };

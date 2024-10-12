@@ -2,7 +2,6 @@
   "name": "beaver-js",
   "version": "1.0.0",
   "description": "Data structures and algorithms written in JavaScript with TypeScript types",
-  "type": "module",
   "exports": "./src/index.js",
   "types": "./src/index.d.ts",
   "scripts": {

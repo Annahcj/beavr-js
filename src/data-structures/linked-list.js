@@ -1,4 +1,4 @@
-export class LinkedListNode {
+class LinkedListNode {
   constructor(val) {
     this.val = val;
     this.next = null;
@@ -9,7 +9,7 @@ export class LinkedListNode {
  * @class LinkedList
  * @param {T[]} [values]
  */
-export class LinkedList {
+class LinkedList {
   /**
    * Initializes the list with the given values if passed in.
    * Time Complexity: O(values.length)
@@ -213,3 +213,6 @@ export class LinkedList {
     return nodeIndex === index ? node : null;
   }
 }
+
+exports.LinkedList = LinkedList;
+exports.LinkedListNode = LinkedListNode;

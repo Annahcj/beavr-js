@@ -4,7 +4,9 @@
  * @param {Number} b
  * @returns {Number}
  */
-export const gcd = (a, b) => {
+const gcd = (a, b) => {
   if (b === 0) return a;
   return gcd(b, a % b);
 };
+
+exports.gcd = gcd;

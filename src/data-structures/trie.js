@@ -1,4 +1,4 @@
-export class TrieNode {
+class TrieNode {
   /**
    * @param {string} char
    */
@@ -9,7 +9,7 @@ export class TrieNode {
   }
 }
 
-export class Trie {
+class Trie {
   /**
    * Stores duplicate words if `storeDuplicates` is `true`, otherwise only stores distinct words.
    * Options:
@@ -138,3 +138,6 @@ export class Trie {
     }
   }
 }
+
+exports.Trie = Trie;
+exports.TrieNode = TrieNode;

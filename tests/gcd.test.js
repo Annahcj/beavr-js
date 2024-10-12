@@ -1,4 +1,4 @@
-import { gcd } from '../src/algorithms/gcd';
+const { gcd } = require('../src/algorithms/gcd');
 
 describe('gcd', () => {
   it('should return the bigger number if one number is divisible by the other', () => {

@@ -1,5 +1,5 @@
-import { TrieNode } from '../src/data-structures/trie';
-import { Trie } from '../src/data-structures/trie';
+const { TrieNode } = require('../src/data-structures/trie');
+const { Trie } = require('../src/data-structures/trie');
 
 describe('Trie', () => {
   describe('when storeDuplicates is false', () => {

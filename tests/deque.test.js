@@ -1,4 +1,4 @@
-import { Deque } from '../src/data-structures/deque';
+const { Deque } = require('../src/data-structures/deque');
 
 const initializeDeque = (values) => {
   const deque = new Deque();

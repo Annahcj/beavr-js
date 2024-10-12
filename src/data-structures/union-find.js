@@ -2,7 +2,7 @@
  * @class UnionFind
  * @param {number} size
  */
-export class UnionFind {
+class UnionFind {
   constructor(size) {
     if (size <= 0) {
       throw new Error('Size must be greater than 0');
@@ -67,3 +67,5 @@ export class UnionFind {
     return this.find(x) === this.find(y);
   }
 }
+
+exports.UnionFind = UnionFind;

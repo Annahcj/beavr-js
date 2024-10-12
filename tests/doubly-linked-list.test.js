@@ -1,7 +1,7 @@
-import {
+const {
   DoublyLinkedList,
   DoublyLinkedListNode,
-} from '../src/data-structures/doubly-linked-list';
+} = require('../src/data-structures/doubly-linked-list');
 
 // Helper function used to check the list's prev references are correct
 const toArrayReversed = (list) => {

@@ -1,5 +1,5 @@
-import { SegmentTreeType } from '../src/data-structures/segment-tree';
-import { SegmentTree } from '../src/data-structures/segment-tree';
+const { SegmentTreeType } = require('../src/data-structures/segment-tree');
+const { SegmentTree } = require('../src/data-structures/segment-tree');
 
 describe('SegmentTree', () => {
   describe('Sum', () => {

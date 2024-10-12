@@ -1,4 +1,4 @@
-import { lcm } from '../src/algorithms/lcm';
+const { lcm } = require('../src/algorithms/lcm');
 
 describe('lcm', () => {
   it('should return the bigger number if one number is divisible by the other', () => {

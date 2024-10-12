@@ -1,4 +1,4 @@
-import { AVLTree, AVLTreeNode } from '../src/data-structures/avl-tree';
+const { AVLTree, AVLTreeNode } = require('../src/data-structures/avl-tree');
 
 const initializeTree = (tree, values) => {
   values.forEach((value) => {

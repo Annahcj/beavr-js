@@ -1,4 +1,4 @@
-import { Queue } from '../src/data-structures/queue';
+const { Queue } = require('../src/data-structures/queue');
 
 const initializeQueue = (values) => {
   const queue = new Queue();

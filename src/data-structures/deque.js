@@ -1,9 +1,9 @@
-import { DoublyLinkedList } from './doubly-linked-list';
+const { DoublyLinkedList } = require('./doubly-linked-list');
 
 /**
  * @class Deque
  */
-export class Deque {
+class Deque {
   constructor() {
     this.list = new DoublyLinkedList();
   }
@@ -71,3 +71,5 @@ export class Deque {
     return this.list.toArray();
   }
 }
+
+exports.Deque = Deque;

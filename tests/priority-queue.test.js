@@ -1,4 +1,4 @@
-import { PriorityQueue } from '../src/data-structures/priority-queue';
+const { PriorityQueue } = require('../src/data-structures/priority-queue');
 
 describe('PriorityQueue', () => {
   describe('add', () => {
@@ -64,34 +64,34 @@ describe('PriorityQueue', () => {
         expect(priorityQueue.size).toBe(3);
         expect(priorityQueue.top()).toBe(1);
         const removedValue = priorityQueue.remove();
-  
+
         expect(removedValue).toBe(1);
         expect(priorityQueue.size).toBe(2);
         expect(priorityQueue.top()).toBe(2);
       });
-  
+
       it('should remove the top element of the queue and return the removed value if the queue has one element', () => {
         const priorityQueue = new PriorityQueue((a, b) => a - b, [1]);
         expect(priorityQueue.size).toBe(1);
         expect(priorityQueue.top()).toBe(1);
         const removedValue = priorityQueue.remove();
-  
+
         expect(removedValue).toBe(1);
         expect(priorityQueue.size).toBe(0);
         expect(priorityQueue.top()).toBe(null);
       });
-  
+
       it('should return null if the queue is empty', () => {
         const priorityQueue = new PriorityQueue((a, b) => a - b);
         expect(priorityQueue.size).toBe(0);
         expect(priorityQueue.top()).toBe(null);
         const removedValue = priorityQueue.remove();
-  
+
         expect(removedValue).toBe(null);
         expect(priorityQueue.size).toBe(0);
         expect(priorityQueue.top()).toBe(null);
       });
-  
+
       it('should remove the values in sorted order when removed one-by-one', () => {
         const values = [1, 2, 3, 4, 5, 6, 7];
         const priorityQueue = new PriorityQueue((a, b) => a - b, values);
@@ -111,7 +111,7 @@ describe('PriorityQueue', () => {
         expect(priorityQueue.size).toBe(3);
         expect(priorityQueue.top()).toBe(3);
         const removedValue = priorityQueue.remove();
-  
+
         expect(removedValue).toBe(3);
         expect(priorityQueue.size).toBe(2);
         expect(priorityQueue.top()).toBe(2);

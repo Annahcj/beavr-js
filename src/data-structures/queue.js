@@ -1,9 +1,9 @@
-import { LinkedList } from './linked-list';
+const { LinkedList } = require('./linked-list');
 
 /**
  * @class Queue
  */
-export class Queue {
+class Queue {
   constructor() {
     this.list = new LinkedList();
   }
@@ -57,3 +57,5 @@ export class Queue {
     return this.list.toArray();
   }
 }
+
+exports.Queue = Queue;

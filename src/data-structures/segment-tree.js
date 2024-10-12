@@ -1,4 +1,4 @@
-export const SegmentTreeType = {
+const SegmentTreeType = {
   Sum: 'sum',
   Max: 'max',
   Min: 'min'
@@ -9,7 +9,7 @@ export const SegmentTreeType = {
  * @param {number[]} arr
  * @param {SegmentTreeType} type=SegmentTreeType.sum
  */
-export class SegmentTree {
+class SegmentTree {
   constructor(arr, type = SegmentTreeType.Sum) {
     this.size = arr.length;
     this.type = type;
@@ -102,3 +102,6 @@ export class SegmentTree {
     return result;
   }
 }
+
+exports.SegmentTree = SegmentTree;
+exports.SegmentTreeType = SegmentTreeType;

@@ -1,7 +1,7 @@
 /**
  * @class PriorityQueue
  */
-export class PriorityQueue {
+class PriorityQueue {
   /**
    * Builds a valid heap if initial values are passed in.
    * @param {(a: any, b: any) => number} [comparator=((a, b) => a - b)] 
@@ -128,3 +128,5 @@ export class PriorityQueue {
     return this.comparator(this.values[index1], this.values[index2]) <= 0;
   }
 }
+
+exports.PriorityQueue = PriorityQueue;

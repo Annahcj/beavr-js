@@ -1,4 +1,4 @@
-export class AVLTreeNode {
+class AVLTreeNode {
   constructor(val) {
     this.val = val;
     this.left = null;
@@ -8,7 +8,7 @@ export class AVLTreeNode {
   }
 }
 
-export class AVLTree {
+class AVLTree {
   constructor(comparator = (a, b) => a - b) {
     this.root = null;
     this.comparator = comparator;
@@ -332,3 +332,6 @@ export class AVLTree {
     return node;
   }
 }
+
+exports.AVLTree = AVLTree;
+exports.AVLTreeNode = AVLTreeNode;

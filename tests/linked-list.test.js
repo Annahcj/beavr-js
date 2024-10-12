@@ -1,5 +1,5 @@
-import { LinkedListNode } from '../src/data-structures/linked-list';
-import { LinkedList } from '../src/data-structures/linked-list';
+const { LinkedListNode } = require('../src/data-structures/linked-list');
+const { LinkedList } = require('../src/data-structures/linked-list');
 
 describe('LinkedList', () => {
   describe('Constructor', () => {
